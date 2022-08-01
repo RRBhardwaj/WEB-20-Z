@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        h1{
+            text-align:center;
+            color:teal;
+            margin-bottom:80px;
+        }
+        .box{
+            height:380px;
+            width:25%;
+            border:1px solid white;
+            margin:auto;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        .box > div{
+            height:60px;
+            width:60%;
+            border:0px solid green;
+            margin:auto;
+        }
+        .box > .margin{
+            margin-top: 30px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        .box > .nxt{
+            display:flex;
+            text-align: center;
+        }
+        .box > .nxt > div{
+            height:30px;
+            width:22%;
+            border:0px solid green;
+            margin:auto;
+            border-radius:5px;
+            padding-top:10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        } 
+        .black{
+            background-color: black;
+            color:white;
+        }
+        .red{
+            background-color: red;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Masai Calculator</h1>
+    <div class="box">
+        <div class="margin nxt"></div>
+        <div class="nxt">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div class="black">+</div>
+        </div>
+        <div class="nxt">
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div class="black">-</div>
+        </div>
+        <div class="nxt">
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div class="black">x</div>
+        </div>
+        <div class="nxt">
+            <div class="red">C</div>
+            <div>0</div>
+            <div class="black">=</div>
+            <div class="black">/</div>
+        </div>
+    </div>
+</body>
+</html>
